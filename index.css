@@ -1,0 +1,420 @@
+
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F8FA;
+}
+
+input {
+    width: 227px;
+    height: 36px;
+
+    margin-top: 5px;
+    padding-left: 10px;
+
+    border: 1px solid #EDEFF2;
+    border-radius: 4px;
+
+    background-color:  #EDEFF2;
+    
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px 60px 20px;
+    padding-bottom: 20px;
+
+
+    border-bottom: 2px solid #EDEFF2;
+}
+
+.nav_text {  
+    /* width: 479px; */
+    height: 40px;
+    
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+    color: #1D2C3C;
+}
+
+.nav_text button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+
+    padding: 4px 9px;
+    color: #1D2C3C;
+    background: none;
+    border: 1.5px solid #1D2C3C;
+    border-radius: 4px;
+
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 892px;
+    height: 795px;
+
+    box-shadow: 0.5px 0.5px 15px rgba(0, 0, 0, 0.293);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.checkout_form {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.checkout_form h2 {
+    font-size: 30px;
+    color: #1D2C3C;
+    font-weight: 400;
+    line-height: 36px;
+
+    margin-top: 35px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+
+    border-bottom: 1px solid #EDEFF2;
+    text-shadow: 1px 1px 5px #00000043;
+}
+
+.user_info {
+    width: 580px;
+    height: 221px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-bottom: 1px solid #EDEFF2;
+
+}
+
+
+.user_info_header, .payment_info_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: -0.16px;
+
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+.user_info_header {
+    width: 260px;
+    height: 32px;
+}
+
+.number_img {
+    margin-right: 10px;
+}
+
+.form_info {
+    float: left;
+    margin-top: 10px;
+    padding-left: 20px;
+
+}
+
+
+#email {
+    width: 370px;
+}
+
+.payment_info {
+    width: 580px;
+    height:154px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-bottom: 1px solid #EDEFF2;
+}
+
+#credit_no {
+    width: 483px;
+}
+
+#card_no {
+    width: 100px;
+    padding-left: 10px;
+
+    display: block;
+    float: right;  
+    z-index: 3;
+    position: static; 
+
+    transform: translate(-21%, -115%);
+}
+
+#card_no::placeholder {
+    word-spacing: 5px;
+}
+
+
+.payment_info_header {
+    width: 286px;
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+.form_footer { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 483px;
+    margin: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+   
+}
+
+.form_footer button {
+    width: 483px;
+    height: 36px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+
+    color: white;
+    background: #038E7D;
+    border: none;
+    border-radius: 4px;
+
+
+}
+
+.form_footer p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+
+    margin-top: 13px;
+    margin-bottom: 30px;
+}
+
+.form_footer p span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    margin-left: 5px;
+}
+
+#stripe {
+    width: 92px;
+    margin: auto;
+    display: block;
+}
+
+.freelancer_info {
+    height: 795px;
+    width: 312px;
+
+    background-color: #1179BF;
+    color: white;
+
+    padding-top: 40px;
+  
+    border-radius: 0px 10px 10px 0px;
+}
+
+.freelance_container {
+    width: 231px;
+    height: 610px;
+
+    margin: auto;
+}
+
+.freelance_container h3 {
+    width: 93px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+
+    margin-bottom: 5px;
+}
+
+#sub_price {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 72px;
+}
+
+#sub_price sup {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+#price_slash {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14.06px;
+} 
+
+#price_year {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21.6px;
+}
+
+#sub_text {
+    width: 144px;
+    height: 48px;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 24px;
+
+    word-wrap: break-word;
+    
+    margin-bottom: 30px;    
+}
+
+.freelance_container ul {
+    list-style-image: url(./assets/bullet.svg);
+    margin-bottom: 30px;
+}
+
+.freelance_container li {   
+    margin: 5px;
+    padding: 5px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.freelance_container li span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+
+#plan_link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+
+    padding-bottom: 35px;
+
+    border-bottom: 2px solid #ffffff7a;
+    
+}
+
+#plan_link p {
+    margin-bottom: 10px;
+}
+
+#plan_link span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+
+}
+
+#plan_link a {
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 19.2px;
+
+    color: white;
+    text-decoration:underline 4px solid #b9f4ff99;
+}
+
+#freelance_footer {
+    width: 227px;
+    height: 96px;
+
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+
+    word-wrap: break-word;
+
+    padding-top: 40px;
+}
+
+#freelance_footer span {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+#kirk {
+    display: flex;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px; 
+
+    margin-top: 20px;  
+
+}
+
+#kirk img {
+    border: none;
+    border-radius: 50%;
+
+    margin-right: 10px;
+}
+
+footer {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    color: #636B6F;
+
+    margin: 20px;
+}
+
+footer a {
+    color:#31708F;
+    text-decoration: none;
+}
